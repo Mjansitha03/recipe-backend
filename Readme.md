@@ -91,7 +91,7 @@ EMAIL_PASS=your_email_app_password
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/recipe-frontend.git
+   git clone https://github.com/Mjansitha03/recipe-backend.git
    cd recipe-frontend
    ```
 
