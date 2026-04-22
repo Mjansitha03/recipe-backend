@@ -61,12 +61,6 @@ Local development base URL:
 http://localhost:3000/api
 
 
-live deployed URL:
-
-
-
-
-
 ## Environment Variables
 
 Create a `.env` file in the project root and configure the following values:
@@ -94,24 +88,22 @@ EMAIL_PASS=your_email_app_password
 - `CLOUDINARY_*`: Cloudinary credentials for recipe image uploads.
 - `EMAIL_USER` and `EMAIL_PASS`: Gmail credentials or app password used by Nodemailer.
 
-## Installation
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/recipe-frontend.git
+   cd recipe-frontend
+   ```
 
-1. Clone the repository.
-2. Navigate to the backend folder.
-3. Install dependencies.
-4. Add the `.env` file.
-5. Start the server.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm install
-npm run dev
-```
-
-## Available Scripts
-
-```bash
-npm run dev
-```
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
 
 Runs the server with Nodemon for development.
 
